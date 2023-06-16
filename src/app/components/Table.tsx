@@ -13,7 +13,7 @@ type Column = {
     const { data } = useStore();
   
     return (
-      <div className='max-h-[650px] overflow-auto'>
+      <div className='max-h-[650px] overflow-auto '>
         <Table columns={columns} dataSource={data.records}  />
       </div>
     );
